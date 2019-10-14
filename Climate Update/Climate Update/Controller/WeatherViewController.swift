@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  WeatherApp
 //
-//  Created by Angela Yu on 23/08/2015.
-//  Copyright (c) 2015 London App Brewery. All rights reserved.
+//  Created by Vaibhav Bisht on 14/10/2019.
+//  Copyright (c) 2019 Coding Blocks. All rights reserved.
 //
 
 import UIKit
