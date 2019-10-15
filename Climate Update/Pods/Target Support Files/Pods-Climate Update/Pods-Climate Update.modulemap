@@ -1,0 +1,6 @@
+framework module Pods_Climate_Update {
+  umbrella header "Pods-Climate Update-umbrella.h"
+
+  export *
+  module * { export * }
+}
