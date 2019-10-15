@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string></string>
+	<string>We Need location to obtain weather for your Current Location</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string></string>
+	<string>We Need location to obtain weather for your Current Location</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
