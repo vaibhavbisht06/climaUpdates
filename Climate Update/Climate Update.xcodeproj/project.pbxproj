@@ -3,13 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4BD4683E9D105193FBD5B3A1 /* Pods_Climate_Update.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0098BDC4B355D6E8E4FF4F /* Pods_Climate_Update.framework */; };
-		57E75D4423549D6000B61B1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E75D4323549D6000B61B1E /* SceneDelegate.swift */; };
-		57E75D4623549D6000B61B1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E75D4523549D6000B61B1E /* ViewController.swift */; };
 		57E75D4C23549D6000B61B1E /* Climate_Update.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57E75D4A23549D6000B61B1E /* Climate_Update.xcdatamodeld */; };
 		57E75D4E23549D6100B61B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E75D4D23549D6100B61B1E /* Assets.xcassets */; };
 		57E75D5123549D6100B61B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E75D4F23549D6100B61B1E /* LaunchScreen.storyboard */; };
@@ -41,8 +39,6 @@
 /* Begin PBXFileReference section */
 		06BAAD8B186501402396F774 /* Pods-Climate Update.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climate Update.release.xcconfig"; path = "Target Support Files/Pods-Climate Update/Pods-Climate Update.release.xcconfig"; sourceTree = "<group>"; };
 		57E75D3E23549D6000B61B1E /* Climate Update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Climate Update.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57E75D4323549D6000B61B1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57E75D4523549D6000B61B1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57E75D4B23549D6000B61B1E /* Climate_Update.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Climate_Update.xcdatamodel; sourceTree = "<group>"; };
 		57E75D4D23549D6100B61B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E75D5023549D6100B61B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -155,8 +151,6 @@
 				57E75D792354A2F600B61B1E /* AppDelegate.swift */,
 				57E75D7A2354A2F600B61B1E /* ChangeCityViewController.swift */,
 				57E75D782354A2F600B61B1E /* WeatherViewController.swift */,
-				57E75D4323549D6000B61B1E /* SceneDelegate.swift */,
-				57E75D4523549D6000B61B1E /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,7 +176,6 @@
 				FFA969EB720DB4FD94A9E352 /* Pods-Climate Update.debug.xcconfig */,
 				06BAAD8B186501402396F774 /* Pods-Climate Update.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -363,9 +356,7 @@
 			files = (
 				57E75D4C23549D6000B61B1E /* Climate_Update.xcdatamodeld in Sources */,
 				57E75D7B2354A2F600B61B1E /* WeatherViewController.swift in Sources */,
-				57E75D4623549D6000B61B1E /* ViewController.swift in Sources */,
 				57E75D7C2354A2F600B61B1E /* AppDelegate.swift in Sources */,
-				57E75D4423549D6000B61B1E /* SceneDelegate.swift in Sources */,
 				57E75D7D2354A2F600B61B1E /* ChangeCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
