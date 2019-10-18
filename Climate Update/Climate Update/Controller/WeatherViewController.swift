@@ -90,7 +90,8 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
             let api_latitude = String(location.coordinate.latitude)
             let api_longitude = String(location.coordinate.longitude)
             
-            let prams : [String : String] = ["lat" : api_latitude , "lon" : api_longitude , "appid" : APP_ID]
+            let prams : [String : String] = ["lat" : api_latitude , "lon" : api_longitude
+                , "appid" : APP_ID]
         }
     }
     
