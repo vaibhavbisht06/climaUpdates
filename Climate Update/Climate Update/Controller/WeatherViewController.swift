@@ -83,6 +83,9 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     //Write the didUpdateLocations method here:
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations[locations.count-1]
+        if location.horizontalAccuracy > 0 {
+            locationManager.stopUpdatingLocation()
+        }
     }
     
     
