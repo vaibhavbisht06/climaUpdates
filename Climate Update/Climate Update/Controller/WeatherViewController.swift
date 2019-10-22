@@ -8,7 +8,9 @@
 
 import UIKit
 import CoreLocation
-
+import Alamofire
+import SVProgressHUD
+import SwiftyJSON
 
 class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -95,7 +97,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
             
             let prams : [String : String] = ["lat" : api_latitude , "lon" : api_longitude
                 , "appid" : APP_ID]
-            getWeatherData(url: WEATHER_URL ,  parameters : prams)
+            getWeatherData ( url: WEATHER_URL ,  prameters : prams)
         }
     }
     
