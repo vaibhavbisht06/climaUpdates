@@ -52,7 +52,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     
     //Write the getWeatherData method here:
     func getWeatherData (url: String, prameters : [String : String]){
-        
+        Alamofire.request()
     }
 
     
