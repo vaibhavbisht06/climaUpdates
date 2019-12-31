@@ -8,9 +8,7 @@
 
 import UIKit
 import CoreLocation
-import Alamofire
 import SVProgressHUD
-import SwiftyJSON
 
 class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -83,33 +81,33 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     
     
     
-    //MARK: - Location Manager Delegate Methods
-    /***************************************************************/
-    
-    
-    //Write the didUpdateLocations method here:
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        let location = locations[locations.count-1]
-        if location.horizontalAccuracy > 0 {
-            locationManager.stopUpdatingLocation()
-            print ("Longitude = \(location.coordinate.longitude)  Latitude = \(location.coordinate.latitude)")
-            
-            let api_latitude = String(location.coordinate.latitude)
-            let api_longitude = String(location.coordinate.longitude)
-            
-            let prams : [String : String] = ["lat" : api_latitude , "lon" : api_longitude
-                , "appid" : APP_ID]
-//            getWeatherData ( url: WEATHER_URL ,  prameters : prams)
-        }
-    }
-    
-    
-    
-    //Write the didFailWithError method here:
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print(error)
-        cityLabel.text = "Location Not Found"
-    }
+//    //MARK: - Location Manager Delegate Methods
+//    /***************************************************************/
+//
+//
+//    //Write the didUpdateLocations method here:
+//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+//        let location = locations[locations.count-1]
+//        if location.horizontalAccuracy > 0 {
+//            locationManager.stopUpdatingLocation()
+//            print ("Longitude = \(location.coordinate.longitude)  Latitude = \(location.coordinate.latitude)")
+//
+//            _ = String(location.coordinate.latitude)
+//            _ = String(location.coordinate.longitude)
+//
+//            let _ : [String : Stri_ ["lat"; : api_latitude , "lon" : api_longitude
+//                , "appid" : APP_ID]
+////            getWeatherData ( url: WEATHER_URL ,  prameters : prams)
+//        }
+//    }
+//
+//
+//
+//    //Write the didFailWithError method here:
+//    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+//        print(error)
+//        cityLabel.text = "Location Not Found"
+//    }
     
     
 
